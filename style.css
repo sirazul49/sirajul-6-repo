@@ -35,7 +35,7 @@ h1{
    margin: 20px 30px;
    background-size: 50%;
   background-repeat: no repeat;
-
+box-shadow:10px 15px 20px green;
   background-image: url(./images/illustrators/illustrator-1.png);
 }
 .div2{
@@ -49,6 +49,7 @@ h1{
     margin: 20px 30px;
    background-size: 50%;
    background-repeat: no repeat;
+   box-shadow:10px 15px 20px rgb(207, 83, 10);  
    background-image: url(./images/illustrators/illustrator-2.png);
 }
 .div3{
@@ -62,10 +63,40 @@ h1{
   margin: 20px 30px;
   background-size: 50%;
   background-repeat: no repeat;
+  box-shadow:10px 15px 20px rgb(128, 41, 0);
   background-image: url(./images/illustrators/illustrator-3.png);
 }
 .section-2{
     display: flex;
     padding: 8%;
     
+}
+.section-3rd{
+    display: flex;
+    padding-right: 30px;
+}
+.div4 img{
+    width: 60%;
+    box-shadow: 10px 5px 50px gold;
+    
+}
+.div5{
+    width: 50%;
+}
+.div4,.div5{
+    margin: 10px;
+    margin-right: 10px;
+}
+.paragraph{
+    font-size: 1.2rem;
+}
+.button{
+    text-decoration: none;
+    color: lawngreen;
+    background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5%;
+  
+  
+    background-image: linear-gradient(red green);
 }
